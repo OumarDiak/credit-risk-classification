@@ -1,4 +1,29 @@
 # credit-risk-classification
-The project involved analyzing a lending dataset to classify loans as either healthy (label 0) or high-risk (label 1) using a logistic regression model. The dataset included features such as loan size, interest rate, borrower income, debt-to-income ratio, number of credit accounts, derogatory marks, and total debt, with the loan status as the target variable. After loading the data into a Pandas DataFrame, it was split into features (X) and labels (y). The train_test_split method was used to divide the data into training and testing sets to ensure the model could be trained and evaluated effectively.
+Overview of the Analysis
+The purpose of this analysis was to develop a machine learning model capable of predicting the risk level of loans, classifying them as either healthy (label 0) or high-risk (label 1). Using logistic regression, the goal was to create a reliable and interpretable model that financial institutions can leverage to identify and manage risky loans effectively. By analyzing features such as loan size, interest rate, borrower income, and debt-to-income ratio, the model aims to assist in minimizing financial risks while maintaining a robust decision-making framework for lending practices.
 
-A logistic regression model was then created and trained using the training data. After fitting the model, predictions were made on the testing data. The model's performance was evaluated using a confusion matrix and a classification report, which revealed an impressive overall accuracy of 99%. The model demonstrated near-perfect precision and recall for predicting healthy loans, while also effectively identifying high-risk loans with a precision of 87% and recall of 94%. This makes the model a valuable tool for financial institutions to identify and manage risky loans, ensuring robust decision-making processes in lending operations.
+Results
+Accuracy Score: 99%
+The model correctly classified 99% of the loans in the dataset.
+Precision Score:
+Healthy loans (0): 100%
+High-risk loans (1): 87%
+Recall Score:
+Healthy loans (0): 100%
+High-risk loans (1): 94%
+Summary
+The logistic regression model performed exceptionally well, achieving an accuracy of 99%, with near-perfect classification for healthy loans and strong precision and recall for high-risk loans. This indicates that the model is highly effective in minimizing false negatives (misclassifying high-risk loans as healthy), which is critical for managing financial risks. Given its strong performance metrics and ability to handle the classification task effectively, this model is highly recommended for use by the company. It provides a reliable and efficient tool for identifying risky loans, allowing the institution to make data-driven decisions to mitigate financial losses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
